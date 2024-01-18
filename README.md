@@ -1,3 +1,15 @@
+Link to Website: https://rashuneagle.github.io/3rd-Challenge/
+
+Screenshot of Website: ![image](https://github.com/Rashuneagle/3rd-Challenge/assets/152398969/0c9d404a-343a-40c1-857d-41b9045fbf26)
+
+
+
+
+
+
+
+
+
 # 3rd-Challenge
 
 # 03 JavaScript: Password Generator
