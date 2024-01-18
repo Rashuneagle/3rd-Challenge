@@ -28,11 +28,6 @@ function generatePassword() {
    return password;
  }
 
- // Function to generate a random password based on criteria
-var newpass = function generateRandomPassword(length, lowercase, uppercase, numeric, special) {
-  // Your password generation logic here (for now, returning a dummy password)
-  // You should implement logic to generate a random password based on the selected criteria
-  return newpass ;
 }
 
 // Write password to the #password input
