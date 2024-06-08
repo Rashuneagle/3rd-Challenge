@@ -27,7 +27,20 @@ function generatePassword() {
   
    return password;
  }
+ function generateRandomPassword(length, lowercase, uppercase, numeric, special) {
+  var charset = "";
+  if (lowercase) charset += "abcdefghijklmnopqrstuvwxyz";
+  if (uppercase) charset += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  if (numeric) charset += "0123456789";
+  if (special) charset += "!@#$%^&*()_+~`|}{[]:;?><,./-=";
 
+  var password = "";
+  for (var i = 0; i < length; i++) {
+    var randomIndex = Math.floor(Math.random() * charset.length);
+    password += charset.charAt(randomIndex);
+  }
+
+  return password;
 }
 
 // Write password to the #password input
