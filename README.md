@@ -1,3 +1,5 @@
+Link to deployed application: https://rashuneagle.github.io/Password-Generator/
+
 ![image](https://github.com/Rashuneagle/Password-Generator/assets/152398969/fa70655d-61b6-4b48-8ee3-8f2620d4ef60)
 
 
